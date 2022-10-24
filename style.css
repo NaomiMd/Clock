@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../Downloads/jordan-stewart-uawRUmJw3_0-unsplash.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+h2{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 10px;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.clock div{
+    margin: 8px;
+}
+
+.clock span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    width: 120px;
+    height: 90px;
+    opacity: 0.8;
+    text-shadow: 4px 2px 2px black;
+    background-color: rgb(18, 62, 145);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    opacity: 0.8;
+}
