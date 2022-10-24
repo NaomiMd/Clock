@@ -33,7 +33,7 @@ h2{
 }
 
 .clock div{
-    margin: 8px;
+    margin: 5px;
 }
 
 .clock span{
@@ -46,7 +46,7 @@ h2{
     height: 90px;
     opacity: 0.8;
     text-shadow: 4px 2px 2px black;
-    background-color: rgb(18, 62, 145);
+    background-color: #123e91;
 }
 
 .clock .text {
@@ -55,4 +55,21 @@ h2{
     text-transform: uppercase;
     background-color: blueviolet;
     opacity: 0.8;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.date span{
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 30px;
 }
