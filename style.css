@@ -11,7 +11,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("monica-garniga-XClNDg9Z9Ag-unsplash.jpg");
+    background-image: url("monica.jpg"); 
+    background-color:  #035297db;
+    background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
